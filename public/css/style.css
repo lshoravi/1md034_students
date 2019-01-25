@@ -1,0 +1,99 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 110%
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+div.image {
+    width: 120vw;
+    height: 20vh;
+}
+
+div.image>img{
+    opacity:0.5;
+    width: 100%;
+    margin-top: -600px;
+}
+
+.site-header {
+    position: absolute;
+    top: 5vh;
+    left: 12vw;
+    color: #000000;
+}
+
+.gluten-lactose {
+    font-weight: bold;
+}
+
+#select-burger {
+    background-color: #000000;
+    color: #ffffff;
+    border-style: dashed;
+    border-color: #ffffff;
+    border-radius: 50px;
+}
+
+#select-burger table {
+    color: #ffffff;
+}
+
+#select-burger-headers {
+    margin-left: 12vw;
+}
+
+#customer-information {
+    background-color: #ffffff;
+    color: #000000;
+    border-style: dashed;
+    border-color: #000000;
+    border-radius: 50px;
+}
+
+#customer-information>*{
+    margin-left: 12vw;
+}
+
+button:hover {
+    background-color: fuchsia;
+    cursor: pointer;
+}
+
+/*
+ * BURGER GRID
+ */
+.burger-grid {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 300px 300px 300px;
+    width: 900px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burgerimage {
+    grid-row: 1;
+}
+
+.burgerdesc {
+    grid-row: 2;
+}
+
+.burger1 {
+    grid-column: 1;
+}
+
+.burger2 {
+    grid-column: 2;
+}
+
+.burger3 {
+    grid-column: 3;
+}
